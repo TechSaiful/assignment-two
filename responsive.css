@@ -85,6 +85,20 @@
         margin-top: 30px;
     }
 
+    /* portfolio section */
+    
+    .mobile-hide{
+        display: none;
+    }
+    .portfolio .first-row{
+        display: grid;
+        grid-template-columns: repeat(2, 50% 50%);
+    }
+    .portfolio .second-row{
+        display: grid;
+        grid-template-columns: repeat(2, 45% 55%);
+    }
+
     /* team section */
     .team-box{
         grid-template-columns: 1fr !important;

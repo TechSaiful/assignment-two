@@ -302,6 +302,78 @@ body{
     width: 60%;
 }
 
+.portfolio .first-row{
+    display: grid;
+    grid-template-columns: repeat(3, 25% 50% 25%);
+}
+.portfolio .second-row{
+    display: grid;
+    grid-template-columns: repeat(3, 45% 25% 30%);
+}
+.portfolio-item{
+    height: 225px;
+    background-size: cover;
+}
+#overlay {
+    width: 100%;
+    height: 100%;
+    opacity: 30%;
+}
+.overlay1{
+    background-color: #00ffcc;
+}
+.overlay2{
+    background-color: red;
+}
+.overlay3{
+    background-color: #00eeff;
+}
+.overlay4{
+    background-color: #000;
+}
+.overlay5{
+    background-color: #5cff05;
+}
+.overlay6{
+    background-color: red;
+}
+.portfolio-item p{
+    font-family: tahoma;
+    color: #ffffff;
+    margin: 0;
+    padding: 30px;
+}
+.portfolio .item01{
+    background-image: url(images/exercise1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.portfolio .item02{
+    background-image: url(images/exercise2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.portfolio .item03{
+    background-image: url(images/exercise3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.portfolio .item04{
+    background-image: url(images/exercise4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.portfolio .item05{
+    background-image: url(images/exercise5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.portfolio .item06{
+    background-image: url(images/exercise6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 /* portfolio section ends form here */
 
 /* calculator chart section starts form here */
