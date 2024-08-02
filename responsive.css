@@ -1,0 +1,192 @@
+
+/* ############  Mobile display 576px ########## */
+
+@media screen and (max-width: 576px){
+
+    .container{
+        width: 85%;
+    }
+
+    /* header */
+    .header {
+        padding: 25px 0 40px 0;
+    }
+    .header-right nav{
+        display: none;
+    }
+    .humbarger{
+        display: block !important;
+        justify-content: end;
+    }
+
+    /* hero section */
+    .hero-left {
+        width: 100%;
+        float: none;
+    }
+    .hero-left h1 {
+        font-size: 45px;
+        line-height: 50px;
+    }
+    .hero-left h1 span {
+        font-size: 90px;
+    }
+    .hero-left-button .join-button{
+        font-size: 16px;
+        padding: 18px 20px;
+    }
+    .hero-left-button .download-button {
+        font-size: 16px;
+        padding: 18px 20px;
+    }
+    .hero-right .right-500 {
+        padding: 10px 15px;
+        top: 15%;
+        left: 50%;
+    }
+    .right-500 h3 {
+        font-size: 38px;
+        font-weight: 700;
+    }
+    .right-500 p {
+        margin-top: 25px;
+        font-size: 15px;
+    }
+
+    /* habit section */
+    .habit-item .row{
+        flex-direction: column;
+    }
+    .habit-text h2{
+        font-size: 30px;
+    }
+
+    /* join section */
+    .join-content{
+        flex-direction: column;
+    }
+    .join-right img{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+    .join-left h2{
+        font-size: 36px;
+    }
+    .join-left p{
+        width: 100%;
+        line-height: 30px;
+    }
+    .join-left button {
+        padding: 17px 75px;
+        justify-content: center;
+    }
+    .join-right{
+        margin-top: 30px;
+    }
+
+    /* team section */
+    .team-box{
+        grid-template-columns: 1fr !important;
+    }
+    .team-text h2{
+        font-size: 35px;
+    }
+    .team-text p {
+        width: 85%;
+    }
+
+
+    /* footer section */
+    .footer-content {
+        flex-direction: column;
+    }
+    .footer-left h2 {
+        font-size: 70px;
+    }
+    .footer-left p {
+        width: 95%;
+    }
+    .footer-right{
+        flex-direction: column;
+    }
+    .footer-copyright p{
+        font-size: 20px;
+    }
+
+
+
+
+}
+
+/* ############  Tab display ########## */
+@media screen and (max-width: 992px){
+    /* header */
+    .header-right ul li a {
+        font-size: 15px;
+    }
+    .header-left h3 a {
+        font-size: 35px;
+    }
+    .header-right ul li {
+        padding: 8px 17px;
+    }
+    
+    /* hero section */
+    .hero-left {
+        width: 100%;
+        float: none;
+        padding: 50px 0;
+    }
+    .hero-left p{
+        padding: 30px 0;
+    }
+
+
+    /* habit section */
+    .habit-item .row{
+        flex-direction: column;
+    }
+    .habit-item .card {
+        margin: 40px 0;
+    }
+    /* .habit-text h2{
+        font-size: 40px;
+    } */
+
+    /* join section */
+    .join-content{
+        flex-direction: column;
+    }
+    .join-right img{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+    .join-left p{
+        width: 100%;
+        line-height: 30px;
+    }
+    .join-right{
+        margin-top: 30px;
+    }
+
+    /* team section */
+    .team-box{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* footer section */
+    
+    .footer-content{
+        flex-direction: column;
+    }
+
+
+
+
+}
+
+
+
+

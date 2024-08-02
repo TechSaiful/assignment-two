@@ -1,4 +1,8 @@
 
+
+/* Miama Font */
+@import url('https://fonts.cdnfonts.com/css/miama');
+
 body{
     margin: 0;
 }
@@ -30,6 +34,7 @@ body{
     margin: 0;
 }
 
+/* header section starts form here */
 .header{
     width: 100%;
     padding: 50px 0;
@@ -40,9 +45,7 @@ body{
 .header-container{
     display: flex;
     justify-content: space-between;
-}
-.header-left{
-    /* background-color: skyblue; */
+    align-items: center;
 }
 .header-left h3 a{
     color: #E6533C;
@@ -74,7 +77,10 @@ body{
 .header-right ul li:first-child{
     background-color: #E6533C;
 }
-
+.header-right .humbarger{
+    display: none;
+    align-items: center;
+}
 
 
 /* hero section style starts from here */
@@ -84,28 +90,32 @@ body{
 }
 .hero-section-container{
     overflow: hidden;
+    padding: 50px 0 30px 0;
 }
 .hero-left{
     width: 50%;
     float: left;
-    
+    align-items: center;
+
 }
 .hero-left h1{
     font-family: sans-serif;
-    font-size: 78px;
+    font-size: 85px;
     font-weight: 900;
     margin: 0;
-    line-height: 90px;
+    line-height: 80px;
     color: #ffffff;
 }
 .hero-left h1 span{
-    font-family: tahoma;
+    font-family: 'Miama', sans-serif;
     font-weight: normal;
-    font-style: italic;
+    font-style: normal;
+    font-size: 150px;
 }
 .hero-left p{
     font-family: tahoma;
-    font-size: 17px;
+    font-size: 20px;
+    line-height: 27px;
     font-weight: 400;
     color: #616060;
     width: 80%;
@@ -225,7 +235,6 @@ body{
 }
 .habit-item .row{
     display: flex;
-
 }
 .habit-item .card {
     text-align: center;
@@ -271,11 +280,12 @@ body{
     padding: 17px 90px;
 }
 
-
 .join-right img{
     width: 400px;
     height: 340px;
     border-radius: 20px;
+    object-fit: none;
+    object-position: 66% 30%;
 }
 
 /* join section ends form here */
@@ -344,7 +354,7 @@ body{
     gap: 15px;
 }
 .team-box .team-item{
-    width: 340px;
+    width: 90%;
     height: 280px;
     background-color: maroon;
     position: relative;
