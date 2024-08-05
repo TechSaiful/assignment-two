@@ -181,13 +181,67 @@
             <div class="calculator-chart">
                 <div class="chart-left-table">
                     <h3>BMI calculator chart</h3>
-                    <table></table>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>BMI</th>
+                                <th>Weight Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Bello 18.5</td>
+                                <td>Underweight</td>
+                            </tr>
+                            <tr>
+                                <td>18.5 - 24.9</td>
+                                <td>healthy</td>
+                            </tr>
+                            <tr>
+                                <td>25.0 - 29.9</td>
+                                <td>overweight</td>
+                            </tr>
+                            <tr>
+                                <td>30.0 - and above</td>
+                                <td>Obese</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
                 <div class="chart-right-form">
-                    <h3>calculate your BMI</h3>
+                    <h3>Calculate Your BMI</h3>
                     <p class="ptext">we beleave fitness should be accessibele to everyone, everywhere, regardless of income or access to a gym.</p>
-                    <form action=""></form>
-                    <button>calculate</button>
+                    <form action="">
+                        <div class="row">
+                            <input type="text" placeholder="Height/cm" name="" id="">
+                            <input type="text" placeholder="Weight/kg" name="" id="">
+                        </div>
+                        <div class="row">
+                            <input type="text" placeholder="Age" name="" id="">
+                            <select>
+                                <option value="">Sex</option>
+                                <option value="">Male</option>
+                                <option value="">Female</option>
+                                <option value="">Transsexual Male</option>
+                                <option value="">Transsexual Female</option>
+                                <option value="">Metrosexual Male</option>
+                                <option value="">Metrosexual Female</option>
+                                <option value="">Artificial Intelligence - Identifies as Male</option>
+                                <option value="">Artificial Intelligence - Identifies as Female</option>
+                                <option value="">other</option>
+                                <option value="">None</option>
+                                <option value="">Prefer Not to Say</option>
+                            </select>
+                        </div>
+                        <div class="row">
+                            <select name="" id="">
+                                <option value="">Select an Activity Factor</option>
+                                <option value="">Lorem</option>
+                                <option value="">Ipsum</option>
+                            </select>
+                        </div>
+                    </form>
+                    <button class="default-button">Calculate</button>
                 </div>
             </div>
         </div>

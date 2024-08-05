@@ -390,17 +390,84 @@ body{
     line-height: 25px;
 }
 /* chart & form */
+
+.calculator-chart{
+    /* display: flex; */
+    /* flex: 1; */
+    /* display: block; */
+    overflow: hidden;
+}
 .calculator-chart-section{
     background-color: #222222;
     padding: 65px 0;
 }
 .calculator-chart h3{
-    font-size: 25px;
-    font-weight: 700;
+    font-size: 30px;
+    font-weight: 900;
     color: #ffffff;
+    font-family: sans-serif;
+}
+
+/* chart-table */
+.chart-left-table{
+    float: left;
+    width: 50%;
+}
+.chart-left-table table{
+    border-collapse: collapse;
+}
+.chart-left-table th{
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 19px;
+    border: 2px solid #292928;
+    padding: 10px 15px;
+    width: 165px;
+    text-align: left;
+    font-family: sans-serif;
+}
+.chart-left-table td{
+    color: #686865;
+    border: 2px solid #292928;
+    padding: 10px 15px;
+    width: 165px;
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+.chart-right-form{
+    width: 50%;
+    float: left;
+}
+.chart-right-form form{
+    padding: 50px 0;
+}
+
+.chart-right-form form input{
+    padding: 12px 15px;
+    font-size: 20px;
+    color: #ffffff;
+    border-radius: 7px;
+    background-color: #383837;
+    border: none;
+    margin: 10px 0;
+}
+.chart-right-form select{
+    padding: 12px 15px;
+    font-size: 20px;
+    color: #ffffff;
+    border-radius: 7px;
+    background-color: #383837;
+    border: none;
+    margin: 10px 0;
+}
+.chart-right-form button{
+    width: 240px;
 }
 
 /* calculator chart section ends form here */
+
+
 
 /* team member section starts form here */
 .team-section{
