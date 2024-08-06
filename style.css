@@ -444,6 +444,7 @@ body{
 }
 
 .chart-right-form form input{
+    width: 44%;
     padding: 12px 15px;
     font-size: 20px;
     color: #ffffff;
@@ -453,6 +454,7 @@ body{
     margin: 10px 0;
 }
 .chart-right-form select{
+    width: 49%;
     padding: 12px 15px;
     font-size: 20px;
     color: #ffffff;
@@ -461,8 +463,17 @@ body{
     border: none;
     margin: 10px 0;
 }
+.chart-right-form select{
+    color: #616060;
+}
+.chart-right-form select option{
+    color: #a8a4a4;
+}
 .chart-right-form button{
     width: 240px;
+}
+.chart-right-form .select-full{
+    width: 99%;
 }
 
 /* calculator chart section ends form here */
