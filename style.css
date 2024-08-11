@@ -130,6 +130,17 @@ body{
     color: #ffffff;
     margin-left: 10px;
 }
+.hero-left-button .download-button:hover{
+	background-color: #E6533C;
+	transition: 2s;
+	cursor: pointer;
+}
+.hero-left-button .join-button:hover{
+	background-color: transparent;
+	transition: 2s;
+	cursor: pointer;
+	border: 1px solid #ffffff;
+}
 
 
 .hero-right{
@@ -137,7 +148,7 @@ body{
     height: 600px;
     display: block;
     overflow: hidden;
-    background-image: url(images/images2.png);
+    background-image: url(images/Images2.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: auto;
