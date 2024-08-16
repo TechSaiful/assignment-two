@@ -403,9 +403,9 @@ body{
 /* chart & form */
 
 .calculator-chart{
-    /* display: flex; */
-    /* flex: 1; */
-    /* display: block; */
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 50px;
     overflow: hidden;
 }
 .calculator-chart-section{
@@ -420,10 +420,11 @@ body{
 }
 
 /* chart-table */
+/*
 .chart-left-table{
     float: left;
     width: 50%;
-}
+}*/
 .chart-left-table table{
     border-collapse: collapse;
 }
@@ -446,33 +447,40 @@ body{
     font-family: sans-serif;
     font-weight: 500;
 }
+/*
 .chart-right-form{
     width: 50%;
     float: left;
-}
+}*/
 .chart-right-form form{
     padding: 50px 0;
 }
-
+.chart-right-form .row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+	box-sizing: border-box;
+}
+.chart-right-form .row-full{
+	margin-top: 10px;
+}
 .chart-right-form form input{
-    width: 44%;
     padding: 12px 15px;
     font-size: 20px;
     color: #ffffff;
     border-radius: 7px;
     background-color: #383837;
     border: none;
-    margin: 10px 0;
+	width: calc(100% - 30px);
 }
 .chart-right-form select{
-    width: 49%;
     padding: 12px 15px;
     font-size: 20px;
     color: #ffffff;
     border-radius: 7px;
     background-color: #383837;
     border: none;
-    margin: 10px 0;
+	width: 100%;
 }
 .chart-right-form select{
     color: #616060;

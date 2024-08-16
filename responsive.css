@@ -98,6 +98,17 @@
         display: grid;
         grid-template-columns: repeat(2, 45% 55%);
     }
+	
+	/*calculator */
+	.calculator-text{
+		width: 100%;
+	}
+	.calculator-text h2{
+		font-size: 35px;
+	}
+	.calculator-chart h3 {
+    font-size: 22px;
+}
 
     /* team section */
     .team-box{
@@ -125,7 +136,7 @@
         flex-direction: column;
     }
     .footer-copyright p{
-        font-size: 20px;
+        font-size: 18px;
     }
 
 
@@ -184,6 +195,13 @@
     .join-right{
         margin-top: 30px;
     }
+	
+	/* calculator section*/
+	.calculator-chart{
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+	
 
     /* team section */
     .team-box{
